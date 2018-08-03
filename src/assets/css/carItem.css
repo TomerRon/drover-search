@@ -1,0 +1,86 @@
+.car-card {
+    height: 215px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding-left: 276px;
+}
+
+.card-image {
+    position: absolute;
+    left: 0;
+    width: 276px;
+    height: 100%;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.card-content {
+    position: relative;
+    height: 100%;
+}
+
+.card-facts i {
+    margin-right: 5px;
+}
+
+.card-facts .card-fact {
+    display: inline-block;
+    font-weight: bold;
+    width: 25%;
+}
+
+.card-features {
+    line-height: 20px;
+    max-height: 70px;
+    overflow: hidden;
+}
+
+.card-action {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #bef9f9;
+    line-height: 15px;
+}
+
+.card-action-button {
+    background-color: #50ff7d;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-action-button:hover {
+    background-color: #00ca4d;
+    color: #000;
+}
+
+.previous-rate {
+    text-decoration: line-through;
+    color: #fe3030;
+}
+
+@media (max-width: 991.98px) {
+    .car-card {
+        padding: 0;
+        height: 100%;
+    }
+    .card-facts .card-fact {
+        width: 33%;
+    }
+    .card-image {
+        position: static;
+        width: 100%;
+        height: auto;
+        border-radius: 6px 6px 0px 0px;
+        padding: 58% 0 0 0;
+    }
+    .card-action {
+        position: static;
+        width: auto;
+        border-radius: 6px;
+    }
+}
